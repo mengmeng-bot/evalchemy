@@ -1,613 +1,0 @@
-INFO 05-12 09:10:54 [__init__.py:243] No platform detected, vLLM is running on UnspecifiedPlatform
-2025-05-12:09:11:03,988 INFO     [eval.py:337] Selected Tasks: ['GPQADiamond']
-2025-05-12:09:11:03,988 WARNING  [openai_completions.py:113] chat-completions endpoint requires the `--apply_chat_template` flag.
-2025-05-12:09:11:03,988 INFO     [api_models.py:115] Using max length 32768 - 1
-2025-05-12:09:11:03,988 INFO     [api_models.py:118] Concurrent requests are disabled. To enable concurrent requests, set `num_concurrent` > 1.
-2025-05-12:09:11:03,988 INFO     [api_models.py:133] Using tokenizer None
-2025-05-12:09:11:03,990 INFO     [eval.py:146] Benchmark tasks to evaluate: ['GPQADiamond']
-2025-05-12:09:11:05,546 INFO     [eval_instruct.py:176] Loaded 198 questions from Idavidrein/gpqa
-2025-05-12:09:11:05,550 INFO     [eval_instruct.py:115] Generating responses for GPQADiamond...
-WARNING: HF_HUB_CACHE environment variable is not set, using default cache directory ~/.cache/huggingface/hub for database utils
-WARNING: HF_HUB_CACHE environment variable is not set, using default cache directory ~/.cache/huggingface/hub for GPQADiamond benchmark
-Requesting API:   0%|          | 0/198 [00:00<?, ?it/s]2025-05-12:09:11:05,590 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   1%|          | 1/198 [00:03<10:10,  3.10s/it]2025-05-12:09:11:08,690 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   1%|          | 2/198 [00:06<09:58,  3.05s/it]2025-05-12:09:11:11,711 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   2%|▏         | 3/198 [00:09<09:59,  3.08s/it]2025-05-12:09:11:14,814 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   2%|▏         | 4/198 [00:12<09:45,  3.02s/it]2025-05-12:09:11:17,746 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   3%|▎         | 5/198 [00:15<09:46,  3.04s/it]2025-05-12:09:11:20,820 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   3%|▎         | 6/198 [00:18<09:56,  3.10s/it]2025-05-12:09:11:24,051 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   4%|▎         | 7/198 [00:21<09:26,  2.97s/it]2025-05-12:09:11:26,736 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   4%|▍         | 8/198 [00:24<09:44,  3.08s/it]2025-05-12:09:11:30,043 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   5%|▍         | 9/198 [00:27<09:43,  3.09s/it]2025-05-12:09:11:33,152 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   5%|▌         | 10/198 [00:30<09:30,  3.04s/it]2025-05-12:09:11:36,075 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   6%|▌         | 11/198 [00:33<09:11,  2.95s/it]2025-05-12:09:11:38,830 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   6%|▌         | 12/198 [00:36<09:19,  3.01s/it]2025-05-12:09:11:41,970 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   7%|▋         | 13/198 [00:39<09:29,  3.08s/it]2025-05-12:09:11:45,207 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   7%|▋         | 14/198 [00:42<09:26,  3.08s/it]2025-05-12:09:11:48,297 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   8%|▊         | 15/198 [00:46<09:40,  3.17s/it]2025-05-12:09:11:51,676 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   8%|▊         | 16/198 [00:49<09:42,  3.20s/it]2025-05-12:09:11:54,940 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   9%|▊         | 17/198 [00:51<09:08,  3.03s/it]2025-05-12:09:11:57,580 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   9%|▉         | 18/198 [00:55<09:25,  3.14s/it]2025-05-12:09:12:00,988 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  10%|▉         | 19/198 [00:58<09:24,  3.15s/it]2025-05-12:09:12:04,155 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  10%|█         | 20/198 [01:01<08:53,  3.00s/it]2025-05-12:09:12:06,795 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  11%|█         | 21/198 [01:03<08:38,  2.93s/it]2025-05-12:09:12:09,565 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  11%|█         | 22/198 [01:06<08:25,  2.87s/it]2025-05-12:09:12:12,301 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  12%|█▏        | 23/198 [01:09<08:29,  2.91s/it]2025-05-12:09:12:15,298 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  12%|█▏        | 24/198 [01:13<09:02,  3.12s/it]2025-05-12:09:12:18,898 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  13%|█▎        | 25/198 [01:16<09:00,  3.12s/it]2025-05-12:09:12:22,042 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  13%|█▎        | 26/198 [01:19<09:01,  3.15s/it]2025-05-12:09:12:25,251 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  14%|█▎        | 27/198 [01:22<08:45,  3.08s/it]2025-05-12:09:12:28,154 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  14%|█▍        | 28/198 [01:25<08:19,  2.94s/it]2025-05-12:09:12:30,771 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  15%|█▍        | 29/198 [01:28<08:36,  3.06s/it]2025-05-12:09:12:34,110 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  15%|█▌        | 30/198 [01:31<08:23,  3.00s/it]2025-05-12:09:12:36,974 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  16%|█▌        | 31/198 [01:34<08:38,  3.10s/it]2025-05-12:09:12:40,320 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  16%|█▌        | 32/198 [01:37<08:33,  3.09s/it]2025-05-12:09:12:43,392 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  17%|█▋        | 33/198 [01:40<08:21,  3.04s/it]2025-05-12:09:12:46,301 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  17%|█▋        | 34/198 [01:43<08:23,  3.07s/it]2025-05-12:09:12:49,440 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  18%|█▊        | 35/198 [01:46<08:21,  3.08s/it]2025-05-12:09:12:52,537 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  18%|█▊        | 36/198 [01:50<08:24,  3.11s/it]2025-05-12:09:12:55,738 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  19%|█▊        | 37/198 [01:52<08:04,  3.01s/it]2025-05-12:09:12:58,510 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  19%|█▉        | 38/198 [01:56<08:06,  3.04s/it]2025-05-12:09:13:01,611 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  20%|█▉        | 39/198 [01:58<07:55,  2.99s/it]2025-05-12:09:13:04,487 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  20%|██        | 40/198 [02:01<07:31,  2.86s/it]2025-05-12:09:13:07,029 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  21%|██        | 41/198 [02:03<07:07,  2.72s/it]2025-05-12:09:13:09,446 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  21%|██        | 42/198 [02:06<07:15,  2.79s/it]2025-05-12:09:13:12,389 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  22%|██▏       | 43/198 [02:09<07:23,  2.86s/it]2025-05-12:09:13:15,422 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  22%|██▏       | 44/198 [02:12<07:15,  2.83s/it]2025-05-12:09:13:18,163 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  23%|██▎       | 45/198 [02:15<07:22,  2.89s/it]2025-05-12:09:13:21,218 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  23%|██▎       | 46/198 [02:18<07:27,  2.94s/it]2025-05-12:09:13:24,280 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  24%|██▎       | 47/198 [02:21<07:13,  2.87s/it]2025-05-12:09:13:26,988 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  24%|██▍       | 48/198 [02:25<07:50,  3.14s/it]2025-05-12:09:13:30,741 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  25%|██▍       | 49/198 [02:28<08:09,  3.29s/it]2025-05-12:09:13:34,379 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  25%|██▌       | 50/198 [02:31<07:42,  3.12s/it]2025-05-12:09:13:37,123 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  26%|██▌       | 51/198 [02:34<07:10,  2.93s/it]2025-05-12:09:13:39,602 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  26%|██▋       | 52/198 [02:37<07:13,  2.97s/it]2025-05-12:09:13:42,651 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  27%|██▋       | 53/198 [02:40<07:14,  3.00s/it]2025-05-12:09:13:45,724 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  27%|██▋       | 54/198 [02:43<07:25,  3.10s/it]2025-05-12:09:13:49,047 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  28%|██▊       | 55/198 [02:46<07:05,  2.97s/it]2025-05-12:09:13:51,733 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  28%|██▊       | 56/198 [02:49<07:28,  3.16s/it]2025-05-12:09:13:55,321 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  29%|██▉       | 57/198 [02:53<08:03,  3.43s/it]2025-05-12:09:13:59,379 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  29%|██▉       | 58/198 [02:56<07:18,  3.13s/it]2025-05-12:09:14:01,814 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  30%|██▉       | 59/198 [02:59<07:10,  3.10s/it]2025-05-12:09:14:04,846 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  30%|███       | 60/198 [03:02<07:03,  3.07s/it]2025-05-12:09:14:07,835 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  31%|███       | 61/198 [03:05<06:50,  3.00s/it]2025-05-12:09:14:10,676 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  31%|███▏      | 62/198 [03:09<07:26,  3.28s/it]2025-05-12:09:14:14,626 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  32%|███▏      | 63/198 [03:13<07:53,  3.51s/it]2025-05-12:09:14:18,656 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  32%|███▏      | 64/198 [03:16<08:02,  3.60s/it]2025-05-12:09:14:22,464 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  33%|███▎      | 65/198 [03:19<07:27,  3.36s/it]2025-05-12:09:14:25,273 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  33%|███▎      | 66/198 [03:22<06:50,  3.11s/it]2025-05-12:09:14:27,790 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  34%|███▍      | 67/198 [03:25<06:44,  3.09s/it]2025-05-12:09:14:30,828 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  34%|███▍      | 68/198 [03:27<06:14,  2.88s/it]2025-05-12:09:14:33,231 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  35%|███▍      | 69/198 [03:31<06:33,  3.05s/it]2025-05-12:09:14:36,674 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  35%|███▌      | 70/198 [03:34<06:44,  3.16s/it]2025-05-12:09:14:40,102 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  36%|███▌      | 71/198 [03:37<06:25,  3.04s/it]2025-05-12:09:14:42,840 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  36%|███▋      | 72/198 [03:39<06:11,  2.95s/it]2025-05-12:09:14:45,589 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  37%|███▋      | 73/198 [03:42<06:04,  2.91s/it]2025-05-12:09:14:48,416 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  37%|███▋      | 74/198 [03:45<05:52,  2.84s/it]2025-05-12:09:14:51,088 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  38%|███▊      | 75/198 [03:48<06:02,  2.94s/it]2025-05-12:09:14:54,272 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  38%|███▊      | 76/198 [03:51<05:49,  2.87s/it]2025-05-12:09:14:56,957 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  39%|███▉      | 77/198 [03:54<06:05,  3.02s/it]2025-05-12:09:15:00,345 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  39%|███▉      | 78/198 [03:57<06:03,  3.03s/it]2025-05-12:09:15:03,382 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  40%|███▉      | 79/198 [04:01<06:15,  3.16s/it]2025-05-12:09:15:06,844 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  40%|████      | 80/198 [04:05<06:45,  3.44s/it]2025-05-12:09:15:10,928 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  41%|████      | 81/198 [04:08<06:32,  3.35s/it]2025-05-12:09:15:14,090 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  41%|████▏     | 82/198 [04:11<06:05,  3.15s/it]2025-05-12:09:15:16,757 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  42%|████▏     | 83/198 [04:14<06:19,  3.30s/it]2025-05-12:09:15:20,422 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  42%|████▏     | 84/198 [04:17<05:42,  3.00s/it]2025-05-12:09:15:22,728 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  43%|████▎     | 85/198 [04:21<06:12,  3.30s/it]2025-05-12:09:15:26,704 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  43%|████▎     | 86/198 [04:24<06:03,  3.25s/it]2025-05-12:09:15:29,839 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  44%|████▍     | 87/198 [04:27<05:54,  3.19s/it]2025-05-12:09:15:32,904 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  44%|████▍     | 88/198 [04:29<05:31,  3.02s/it]2025-05-12:09:15:35,507 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  45%|████▍     | 89/198 [04:33<05:45,  3.17s/it]2025-05-12:09:15:39,049 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  45%|████▌     | 90/198 [04:36<05:40,  3.16s/it]2025-05-12:09:15:42,164 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  46%|████▌     | 91/198 [04:39<05:26,  3.05s/it]2025-05-12:09:15:44,976 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  46%|████▋     | 92/198 [04:42<05:41,  3.22s/it]2025-05-12:09:15:48,578 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  47%|████▋     | 93/198 [04:46<05:41,  3.25s/it]2025-05-12:09:15:51,916 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  47%|████▋     | 94/198 [04:49<05:30,  3.18s/it]2025-05-12:09:15:54,930 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  48%|████▊     | 95/198 [04:52<05:32,  3.23s/it]2025-05-12:09:15:58,267 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  48%|████▊     | 96/198 [04:56<05:35,  3.29s/it]2025-05-12:09:16:01,697 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  49%|████▉     | 97/198 [04:58<05:12,  3.10s/it]2025-05-12:09:16:04,346 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  49%|████▉     | 98/198 [05:01<05:00,  3.01s/it]2025-05-12:09:16:07,142 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  50%|█████     | 99/198 [05:04<05:04,  3.08s/it]2025-05-12:09:16:10,387 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  51%|█████     | 100/198 [05:08<05:07,  3.13s/it]2025-05-12:09:16:13,652 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  51%|█████     | 101/198 [05:11<05:07,  3.17s/it]2025-05-12:09:16:16,890 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  52%|█████▏    | 102/198 [05:14<04:57,  3.10s/it]2025-05-12:09:16:19,842 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  52%|█████▏    | 103/198 [05:17<05:10,  3.27s/it]2025-05-12:09:16:23,505 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  53%|█████▎    | 104/198 [05:20<04:58,  3.17s/it]2025-05-12:09:16:26,451 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  53%|█████▎    | 105/198 [05:24<04:55,  3.17s/it]2025-05-12:09:16:29,625 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  54%|█████▎    | 106/198 [05:26<04:44,  3.09s/it]2025-05-12:09:16:32,518 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  54%|█████▍    | 107/198 [05:29<04:28,  2.95s/it]2025-05-12:09:16:35,158 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  55%|█████▍    | 108/198 [05:32<04:17,  2.86s/it]2025-05-12:09:16:37,798 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  55%|█████▌    | 109/198 [05:36<04:43,  3.19s/it]2025-05-12:09:16:41,760 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  56%|█████▌    | 110/198 [05:39<04:49,  3.29s/it]2025-05-12:09:16:45,274 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  56%|█████▌    | 111/198 [05:42<04:40,  3.22s/it]2025-05-12:09:16:48,348 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  57%|█████▋    | 112/198 [05:46<04:40,  3.26s/it]2025-05-12:09:16:51,691 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  57%|█████▋    | 113/198 [05:49<04:31,  3.19s/it]2025-05-12:09:16:54,735 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  58%|█████▊    | 114/198 [05:51<04:09,  2.97s/it]2025-05-12:09:16:57,169 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  58%|█████▊    | 115/198 [05:55<04:26,  3.22s/it]2025-05-12:09:17:00,964 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  59%|█████▊    | 116/198 [05:58<04:27,  3.26s/it]2025-05-12:09:17:04,327 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  59%|█████▉    | 117/198 [06:01<04:03,  3.00s/it]2025-05-12:09:17:06,734 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  60%|█████▉    | 118/198 [06:03<03:48,  2.85s/it]2025-05-12:09:17:09,236 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  60%|██████    | 119/198 [06:06<03:55,  2.98s/it]2025-05-12:09:17:12,503 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  61%|██████    | 120/198 [06:09<03:36,  2.77s/it]2025-05-12:09:17:14,789 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  61%|██████    | 121/198 [06:12<03:35,  2.79s/it]2025-05-12:09:17:17,637 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  62%|██████▏   | 122/198 [06:15<03:50,  3.03s/it]2025-05-12:09:17:21,211 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  62%|██████▏   | 123/198 [06:18<03:38,  2.91s/it]2025-05-12:09:17:23,847 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  63%|██████▎   | 124/198 [06:20<03:31,  2.86s/it]2025-05-12:09:17:26,587 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  63%|██████▎   | 125/198 [06:23<03:20,  2.75s/it]2025-05-12:09:17:29,086 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  64%|██████▎   | 126/198 [06:27<03:38,  3.04s/it]2025-05-12:09:17:32,785 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  64%|██████▍   | 127/198 [06:30<03:31,  2.97s/it]2025-05-12:09:17:35,618 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  65%|██████▍   | 128/198 [06:33<03:30,  3.01s/it]2025-05-12:09:17:38,711 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  65%|██████▌   | 129/198 [06:36<03:31,  3.07s/it]2025-05-12:09:17:41,923 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  66%|██████▌   | 130/198 [06:39<03:22,  2.97s/it]2025-05-12:09:17:44,663 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  66%|██████▌   | 131/198 [06:42<03:23,  3.03s/it]2025-05-12:09:17:47,835 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  67%|██████▋   | 132/198 [06:46<03:34,  3.25s/it]2025-05-12:09:17:51,603 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  67%|██████▋   | 133/198 [06:49<03:26,  3.18s/it]2025-05-12:09:17:54,618 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  68%|██████▊   | 134/198 [06:51<03:17,  3.09s/it]2025-05-12:09:17:57,493 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  68%|██████▊   | 135/198 [06:54<03:13,  3.08s/it]2025-05-12:09:18:00,535 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  69%|██████▊   | 136/198 [06:57<03:09,  3.06s/it]2025-05-12:09:18:03,550 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  69%|██████▉   | 137/198 [07:00<03:01,  2.97s/it]2025-05-12:09:18:06,323 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  70%|██████▉   | 138/198 [07:03<02:52,  2.87s/it]2025-05-12:09:18:08,960 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  70%|███████   | 139/198 [07:06<02:55,  2.97s/it]2025-05-12:09:18:12,165 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  71%|███████   | 140/198 [07:10<03:09,  3.26s/it]2025-05-12:09:18:16,100 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  71%|███████   | 141/198 [07:13<02:57,  3.11s/it]2025-05-12:09:18:18,871 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  72%|███████▏  | 142/198 [07:16<02:52,  3.07s/it]2025-05-12:09:18:21,844 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  72%|███████▏  | 143/198 [07:19<02:45,  3.00s/it]2025-05-12:09:18:24,688 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  73%|███████▎  | 144/198 [07:22<02:40,  2.97s/it]2025-05-12:09:18:27,594 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  73%|███████▎  | 145/198 [07:25<02:43,  3.09s/it]2025-05-12:09:18:30,946 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  74%|███████▎  | 146/198 [07:28<02:34,  2.97s/it]2025-05-12:09:18:33,656 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  74%|███████▍  | 147/198 [07:31<02:31,  2.97s/it]2025-05-12:09:18:36,625 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  75%|███████▍  | 148/198 [07:35<02:44,  3.29s/it]2025-05-12:09:18:40,643 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  75%|███████▌  | 149/198 [07:37<02:35,  3.16s/it]2025-05-12:09:18:43,520 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  76%|███████▌  | 150/198 [07:40<02:25,  3.03s/it]2025-05-12:09:18:46,252 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  76%|███████▋  | 151/198 [07:44<02:38,  3.36s/it]2025-05-12:09:18:50,386 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  77%|███████▋  | 152/198 [07:47<02:27,  3.22s/it]2025-05-12:09:18:53,258 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  77%|███████▋  | 153/198 [07:50<02:23,  3.18s/it]2025-05-12:09:18:56,369 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  78%|███████▊  | 154/198 [07:53<02:12,  3.01s/it]2025-05-12:09:18:58,980 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  78%|███████▊  | 155/198 [07:57<02:25,  3.39s/it]2025-05-12:09:19:03,258 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  79%|███████▉  | 156/198 [08:00<02:13,  3.18s/it]2025-05-12:09:19:05,938 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  79%|███████▉  | 157/198 [08:02<02:03,  3.00s/it]2025-05-12:09:19:08,532 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  80%|███████▉  | 158/198 [08:05<01:56,  2.92s/it]2025-05-12:09:19:11,242 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  80%|████████  | 159/198 [08:08<01:56,  2.98s/it]2025-05-12:09:19:14,357 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  81%|████████  | 160/198 [08:11<01:51,  2.92s/it]2025-05-12:09:19:17,160 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  81%|████████▏ | 161/198 [08:14<01:48,  2.92s/it]2025-05-12:09:19:20,075 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  82%|████████▏ | 162/198 [08:17<01:46,  2.96s/it]2025-05-12:09:19:23,119 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  82%|████████▏ | 163/198 [08:20<01:47,  3.07s/it]2025-05-12:09:19:26,459 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  83%|████████▎ | 164/198 [08:23<01:42,  3.02s/it]2025-05-12:09:19:29,359 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  83%|████████▎ | 165/198 [08:26<01:40,  3.04s/it]2025-05-12:09:19:32,433 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  84%|████████▍ | 166/198 [08:29<01:37,  3.04s/it]2025-05-12:09:19:35,492 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  84%|████████▍ | 167/198 [08:33<01:37,  3.13s/it]2025-05-12:09:19:38,827 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  85%|████████▍ | 168/198 [08:35<01:29,  2.98s/it]2025-05-12:09:19:41,468 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  85%|████████▌ | 169/198 [08:39<01:28,  3.04s/it]2025-05-12:09:19:44,642 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  86%|████████▌ | 170/198 [08:42<01:26,  3.10s/it]2025-05-12:09:19:47,872 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  86%|████████▋ | 171/198 [08:45<01:25,  3.15s/it]2025-05-12:09:19:51,145 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  87%|████████▋ | 172/198 [08:48<01:19,  3.08s/it]2025-05-12:09:19:54,049 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  87%|████████▋ | 173/198 [08:51<01:18,  3.13s/it]2025-05-12:09:19:57,289 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  88%|████████▊ | 174/198 [08:55<01:19,  3.32s/it]2025-05-12:09:20:01,055 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  88%|████████▊ | 175/198 [08:58<01:12,  3.15s/it]2025-05-12:09:20:03,828 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  89%|████████▉ | 176/198 [09:01<01:10,  3.20s/it]2025-05-12:09:20:07,137 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  89%|████████▉ | 177/198 [09:04<01:06,  3.18s/it]2025-05-12:09:20:10,271 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  90%|████████▉ | 178/198 [09:07<00:58,  2.95s/it]2025-05-12:09:20:12,676 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  90%|█████████ | 179/198 [09:10<01:01,  3.22s/it]2025-05-12:09:20:16,538 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  91%|█████████ | 180/198 [09:14<01:00,  3.36s/it]2025-05-12:09:20:20,230 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  91%|█████████▏| 181/198 [09:18<00:58,  3.46s/it]2025-05-12:09:20:23,927 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  92%|█████████▏| 182/198 [09:20<00:50,  3.17s/it]2025-05-12:09:20:26,410 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  92%|█████████▏| 183/198 [09:23<00:46,  3.07s/it]2025-05-12:09:20:29,255 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  93%|█████████▎| 184/198 [09:27<00:45,  3.26s/it]2025-05-12:09:20:32,958 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  93%|█████████▎| 185/198 [09:30<00:41,  3.17s/it]2025-05-12:09:20:35,926 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  94%|█████████▍| 186/198 [09:33<00:37,  3.11s/it]2025-05-12:09:20:38,901 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  94%|█████████▍| 187/198 [09:36<00:35,  3.19s/it]2025-05-12:09:20:42,275 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  95%|█████████▍| 188/198 [09:40<00:34,  3.49s/it]2025-05-12:09:20:46,472 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  95%|█████████▌| 189/198 [09:43<00:28,  3.17s/it]2025-05-12:09:20:48,888 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  96%|█████████▌| 190/198 [09:46<00:25,  3.21s/it]2025-05-12:09:20:52,190 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  96%|█████████▋| 191/198 [09:50<00:22,  3.27s/it]2025-05-12:09:20:55,604 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  97%|█████████▋| 192/198 [09:52<00:18,  3.04s/it]2025-05-12:09:20:58,091 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  97%|█████████▋| 193/198 [09:54<00:14,  2.81s/it]2025-05-12:09:21:00,371 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  98%|█████████▊| 194/198 [09:58<00:11,  2.96s/it]2025-05-12:09:21:03,670 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  98%|█████████▊| 195/198 [10:02<00:09,  3.30s/it]2025-05-12:09:21:07,764 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  99%|█████████▉| 196/198 [10:04<00:06,  3.15s/it]2025-05-12:09:21:10,571 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  99%|█████████▉| 197/198 [10:08<00:03,  3.23s/it]2025-05-12:09:21:13,974 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API: 100%|██████████| 198/198 [10:11<00:00,  3.25s/it]Requesting API: 100%|██████████| 198/198 [10:11<00:00,  3.09s/it]
-2025-05-12:09:21:17,284 INFO     [eval_instruct.py:115] Generating responses for GPQADiamond...
-Requesting API:   0%|          | 0/198 [00:00<?, ?it/s]2025-05-12:09:21:17,322 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   1%|          | 1/198 [00:03<09:51,  3.01s/it]2025-05-12:09:21:20,328 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   1%|          | 2/198 [00:05<09:07,  2.80s/it]2025-05-12:09:21:22,976 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   2%|▏         | 3/198 [00:08<09:36,  2.96s/it]2025-05-12:09:21:26,127 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   2%|▏         | 4/198 [00:11<09:47,  3.03s/it]2025-05-12:09:21:29,264 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   3%|▎         | 5/198 [00:15<09:51,  3.07s/it]2025-05-12:09:21:32,398 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   3%|▎         | 6/198 [00:18<09:53,  3.09s/it]2025-05-12:09:21:35,544 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   4%|▎         | 7/198 [00:21<10:11,  3.20s/it]2025-05-12:09:21:38,960 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   4%|▍         | 8/198 [00:24<09:55,  3.13s/it]2025-05-12:09:21:41,948 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   5%|▍         | 9/198 [00:27<09:45,  3.10s/it]2025-05-12:09:21:44,977 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   5%|▌         | 10/198 [00:30<09:35,  3.06s/it]2025-05-12:09:21:47,957 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   6%|▌         | 11/198 [00:34<09:58,  3.20s/it]2025-05-12:09:21:51,473 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   6%|▌         | 12/198 [00:37<09:47,  3.16s/it]2025-05-12:09:21:54,535 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   7%|▋         | 13/198 [00:40<09:38,  3.13s/it]2025-05-12:09:21:57,583 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   7%|▋         | 14/198 [00:43<09:17,  3.03s/it]2025-05-12:09:22:00,392 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   8%|▊         | 15/198 [00:46<09:13,  3.02s/it]2025-05-12:09:22:03,401 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   8%|▊         | 16/198 [00:49<09:17,  3.07s/it]2025-05-12:09:22:06,565 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   9%|▊         | 17/198 [00:51<08:53,  2.95s/it]2025-05-12:09:22:09,243 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   9%|▉         | 18/198 [00:55<09:22,  3.13s/it]2025-05-12:09:22:12,780 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  10%|▉         | 19/198 [00:58<09:04,  3.04s/it]2025-05-12:09:22:15,633 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  10%|█         | 20/198 [01:00<08:38,  2.91s/it]2025-05-12:09:22:18,233 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  11%|█         | 21/198 [01:03<08:31,  2.89s/it]2025-05-12:09:22:21,074 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  11%|█         | 22/198 [01:06<08:22,  2.85s/it]2025-05-12:09:22:23,843 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  12%|█▏        | 23/198 [01:09<08:24,  2.88s/it]2025-05-12:09:22:26,788 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  12%|█▏        | 24/198 [01:12<08:45,  3.02s/it]2025-05-12:09:22:30,126 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  13%|█▎        | 25/198 [01:16<09:07,  3.17s/it]2025-05-12:09:22:33,641 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  13%|█▎        | 26/198 [01:19<09:11,  3.21s/it]2025-05-12:09:22:36,946 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  14%|█▎        | 27/198 [01:22<08:42,  3.06s/it]2025-05-12:09:22:39,654 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  14%|█▍        | 28/198 [01:24<08:13,  2.90s/it]2025-05-12:09:22:42,200 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  15%|█▍        | 29/198 [01:27<08:06,  2.88s/it]2025-05-12:09:22:45,013 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  15%|█▌        | 30/198 [01:30<07:53,  2.82s/it]2025-05-12:09:22:47,687 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  16%|█▌        | 31/198 [01:33<08:14,  2.96s/it]2025-05-12:09:22:50,991 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  16%|█▌        | 32/198 [01:36<08:00,  2.90s/it]2025-05-12:09:22:53,736 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  17%|█▋        | 33/198 [01:39<08:08,  2.96s/it]2025-05-12:09:22:56,835 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  17%|█▋        | 34/198 [01:42<07:52,  2.88s/it]2025-05-12:09:22:59,541 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  18%|█▊        | 35/198 [01:45<07:59,  2.94s/it]2025-05-12:09:23:02,613 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  18%|█▊        | 36/198 [01:48<08:03,  2.99s/it]2025-05-12:09:23:05,708 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  19%|█▊        | 37/198 [01:51<08:17,  3.09s/it]2025-05-12:09:23:09,041 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  19%|█▉        | 38/198 [01:54<07:57,  2.98s/it]2025-05-12:09:23:11,774 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  20%|█▉        | 39/198 [01:57<07:48,  2.95s/it]2025-05-12:09:23:14,644 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  20%|██        | 40/198 [01:59<07:30,  2.85s/it]2025-05-12:09:23:17,257 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  21%|██        | 41/198 [02:02<07:03,  2.70s/it]2025-05-12:09:23:19,604 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  21%|██        | 42/198 [02:06<07:58,  3.07s/it]2025-05-12:09:23:23,543 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  22%|██▏       | 43/198 [02:08<07:42,  2.98s/it]2025-05-12:09:23:26,318 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  22%|██▏       | 44/198 [02:11<07:26,  2.90s/it]2025-05-12:09:23:29,034 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  23%|██▎       | 45/198 [02:14<07:38,  3.00s/it]2025-05-12:09:23:32,247 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  23%|██▎       | 46/198 [02:18<07:55,  3.13s/it]2025-05-12:09:23:35,678 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  24%|██▎       | 47/198 [02:21<07:31,  2.99s/it]2025-05-12:09:23:38,357 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  24%|██▍       | 48/198 [02:24<07:51,  3.14s/it]2025-05-12:09:23:41,854 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  25%|██▍       | 49/198 [02:27<07:48,  3.14s/it]2025-05-12:09:23:44,993 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  25%|██▌       | 50/198 [02:30<07:36,  3.08s/it]2025-05-12:09:23:47,936 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  26%|██▌       | 51/198 [02:33<07:21,  3.00s/it]2025-05-12:09:23:50,753 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  26%|██▋       | 52/198 [02:36<07:27,  3.07s/it]2025-05-12:09:23:53,969 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  27%|██▋       | 53/198 [02:39<07:17,  3.02s/it]2025-05-12:09:23:56,872 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  27%|██▋       | 54/198 [02:42<07:23,  3.08s/it]2025-05-12:09:24:00,108 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  28%|██▊       | 55/198 [02:45<07:05,  2.98s/it]2025-05-12:09:24:02,843 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  28%|██▊       | 56/198 [02:48<07:13,  3.05s/it]2025-05-12:09:24:06,076 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  29%|██▉       | 57/198 [02:53<08:25,  3.59s/it]2025-05-12:09:24:10,900 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  29%|██▉       | 58/198 [02:55<07:32,  3.23s/it]2025-05-12:09:24:13,301 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  30%|██▉       | 59/198 [02:58<07:15,  3.13s/it]2025-05-12:09:24:16,196 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  30%|███       | 60/198 [03:01<06:57,  3.02s/it]2025-05-12:09:24:18,968 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  31%|███       | 61/198 [03:05<07:21,  3.22s/it]2025-05-12:09:24:22,654 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  31%|███▏      | 62/198 [03:08<07:21,  3.25s/it]2025-05-12:09:24:25,963 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  32%|███▏      | 63/198 [03:12<07:53,  3.50s/it]2025-05-12:09:24:30,068 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  32%|███▏      | 64/198 [03:16<08:16,  3.71s/it]2025-05-12:09:24:34,241 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  33%|███▎      | 65/198 [03:19<07:38,  3.45s/it]2025-05-12:09:24:37,084 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  33%|███▎      | 66/198 [03:22<06:55,  3.14s/it]2025-05-12:09:24:39,522 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  34%|███▍      | 67/198 [03:25<06:53,  3.15s/it]2025-05-12:09:24:42,697 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  34%|███▍      | 68/198 [03:27<06:27,  2.98s/it]2025-05-12:09:24:45,277 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  35%|███▍      | 69/198 [03:31<06:36,  3.08s/it]2025-05-12:09:24:48,573 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  35%|███▌      | 70/198 [03:34<06:26,  3.02s/it]2025-05-12:09:24:51,469 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  36%|███▌      | 71/198 [03:36<06:15,  2.96s/it]2025-05-12:09:24:54,274 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  36%|███▋      | 72/198 [03:39<06:10,  2.94s/it]2025-05-12:09:24:57,175 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  37%|███▋      | 73/198 [03:42<06:13,  2.99s/it]2025-05-12:09:25:00,282 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  37%|███▋      | 74/198 [03:45<06:06,  2.95s/it]2025-05-12:09:25:03,150 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  38%|███▊      | 75/198 [03:48<06:05,  2.97s/it]2025-05-12:09:25:06,173 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  38%|███▊      | 76/198 [03:51<06:00,  2.95s/it]2025-05-12:09:25:09,077 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  39%|███▉      | 77/198 [03:54<05:59,  2.97s/it]2025-05-12:09:25:12,102 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  39%|███▉      | 78/198 [03:57<06:00,  3.00s/it]2025-05-12:09:25:15,171 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  40%|███▉      | 79/198 [04:00<06:01,  3.04s/it]2025-05-12:09:25:18,292 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  40%|████      | 80/198 [04:05<06:53,  3.50s/it]2025-05-12:09:25:22,875 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  41%|████      | 81/198 [04:08<06:33,  3.36s/it]2025-05-12:09:25:25,920 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  41%|████▏     | 82/198 [04:11<06:06,  3.16s/it]2025-05-12:09:25:28,602 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  42%|████▏     | 83/198 [04:14<06:18,  3.29s/it]2025-05-12:09:25:32,199 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  42%|████▏     | 84/198 [04:17<05:44,  3.03s/it]2025-05-12:09:25:34,605 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  43%|████▎     | 85/198 [04:20<06:04,  3.23s/it]2025-05-12:09:25:38,308 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  43%|████▎     | 86/198 [04:23<05:54,  3.16s/it]2025-05-12:09:25:41,316 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  44%|████▍     | 87/198 [04:27<05:57,  3.22s/it]2025-05-12:09:25:44,685 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  44%|████▍     | 88/198 [04:29<05:33,  3.03s/it]2025-05-12:09:25:47,265 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  45%|████▍     | 89/198 [04:33<05:40,  3.13s/it]2025-05-12:09:25:50,611 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  45%|████▌     | 90/198 [04:36<05:32,  3.08s/it]2025-05-12:09:25:53,576 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  46%|████▌     | 91/198 [04:39<05:23,  3.02s/it]2025-05-12:09:25:56,461 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  46%|████▋     | 92/198 [04:42<05:20,  3.03s/it]2025-05-12:09:25:59,504 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  47%|████▋     | 93/198 [04:45<05:20,  3.05s/it]2025-05-12:09:26:02,608 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  47%|████▋     | 94/198 [04:48<05:11,  3.00s/it]2025-05-12:09:26:05,486 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  48%|████▊     | 95/198 [04:51<05:10,  3.02s/it]2025-05-12:09:26:08,554 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  48%|████▊     | 96/198 [04:54<05:25,  3.19s/it]2025-05-12:09:26:12,154 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  49%|████▉     | 97/198 [04:57<05:09,  3.07s/it]2025-05-12:09:26:14,930 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  49%|████▉     | 98/198 [05:00<05:02,  3.02s/it]2025-05-12:09:26:17,842 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  50%|█████     | 99/198 [05:03<05:08,  3.11s/it]2025-05-12:09:26:21,165 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  51%|█████     | 100/198 [05:07<05:08,  3.15s/it]2025-05-12:09:26:24,404 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  51%|█████     | 101/198 [05:10<05:00,  3.10s/it]2025-05-12:09:26:27,376 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  52%|█████▏    | 102/198 [05:12<04:50,  3.02s/it]2025-05-12:09:26:30,225 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  52%|█████▏    | 103/198 [05:16<05:05,  3.22s/it]2025-05-12:09:26:33,894 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  53%|█████▎    | 104/198 [05:19<04:56,  3.15s/it]2025-05-12:09:26:36,901 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  53%|█████▎    | 105/198 [05:23<05:00,  3.24s/it]2025-05-12:09:26:40,328 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  54%|█████▎    | 106/198 [05:26<04:54,  3.20s/it]2025-05-12:09:26:43,440 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  54%|█████▍    | 107/198 [05:28<04:28,  2.95s/it]2025-05-12:09:26:45,826 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  55%|█████▍    | 108/198 [05:31<04:23,  2.93s/it]2025-05-12:09:26:48,697 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  55%|█████▌    | 109/198 [05:35<04:43,  3.19s/it]2025-05-12:09:26:52,493 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  56%|█████▌    | 110/198 [05:38<04:43,  3.23s/it]2025-05-12:09:26:55,806 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  56%|█████▌    | 111/198 [05:41<04:36,  3.18s/it]2025-05-12:09:26:58,883 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  57%|█████▋    | 112/198 [05:45<04:46,  3.33s/it]2025-05-12:09:27:02,553 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  57%|█████▋    | 113/198 [05:48<04:30,  3.18s/it]2025-05-12:09:27:05,394 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  58%|█████▊    | 114/198 [05:50<04:19,  3.09s/it]2025-05-12:09:27:08,269 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  58%|█████▊    | 115/198 [05:55<04:41,  3.39s/it]2025-05-12:09:27:12,370 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  59%|█████▊    | 116/198 [05:58<04:36,  3.37s/it]2025-05-12:09:27:15,675 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  59%|█████▉    | 117/198 [06:00<04:09,  3.08s/it]2025-05-12:09:27:18,081 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  60%|█████▉    | 118/198 [06:03<03:56,  2.96s/it]2025-05-12:09:27:20,749 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  60%|██████    | 119/198 [06:06<03:48,  2.89s/it]2025-05-12:09:27:23,492 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  61%|██████    | 120/198 [06:08<03:34,  2.75s/it]2025-05-12:09:27:25,899 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  61%|██████    | 121/198 [06:11<03:33,  2.77s/it]2025-05-12:09:27:28,727 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  62%|██████▏   | 122/198 [06:15<03:51,  3.04s/it]2025-05-12:09:27:32,403 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  62%|██████▏   | 123/198 [06:17<03:40,  2.94s/it]2025-05-12:09:27:35,111 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  63%|██████▎   | 124/198 [06:20<03:37,  2.93s/it]2025-05-12:09:27:38,024 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  63%|██████▎   | 125/198 [06:23<03:30,  2.88s/it]2025-05-12:09:27:40,769 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  64%|██████▎   | 126/198 [06:26<03:40,  3.06s/it]2025-05-12:09:27:44,247 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  64%|██████▍   | 127/198 [06:29<03:28,  2.94s/it]2025-05-12:09:27:46,926 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  65%|██████▍   | 128/198 [06:32<03:30,  3.01s/it]2025-05-12:09:27:50,087 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  65%|██████▌   | 129/198 [06:35<03:31,  3.06s/it]2025-05-12:09:27:53,266 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  66%|██████▌   | 130/198 [06:38<03:18,  2.92s/it]2025-05-12:09:27:55,873 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  66%|██████▌   | 131/198 [06:41<03:23,  3.04s/it]2025-05-12:09:27:59,182 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  67%|██████▋   | 132/198 [06:45<03:36,  3.27s/it]2025-05-12:09:28:02,999 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  67%|██████▋   | 133/198 [06:49<03:36,  3.33s/it]2025-05-12:09:28:06,450 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  68%|██████▊   | 134/198 [06:52<03:33,  3.33s/it]2025-05-12:09:28:09,789 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  68%|██████▊   | 135/198 [06:55<03:31,  3.35s/it]2025-05-12:09:28:13,192 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  69%|██████▊   | 136/198 [06:58<03:18,  3.20s/it]2025-05-12:09:28:16,022 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  69%|██████▉   | 137/198 [07:01<03:10,  3.13s/it]2025-05-12:09:28:18,994 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  70%|██████▉   | 138/198 [07:04<03:01,  3.03s/it]2025-05-12:09:28:21,783 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  70%|███████   | 139/198 [07:07<03:03,  3.10s/it]2025-05-12:09:28:25,065 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  71%|███████   | 140/198 [07:11<03:15,  3.37s/it]2025-05-12:09:28:29,066 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  71%|███████   | 141/198 [07:14<03:04,  3.24s/it]2025-05-12:09:28:32,000 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  72%|███████▏  | 142/198 [07:17<02:55,  3.13s/it]2025-05-12:09:28:34,864 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  72%|███████▏  | 143/198 [07:20<02:50,  3.09s/it]2025-05-12:09:28:37,871 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  73%|███████▎  | 144/198 [07:23<02:42,  3.01s/it]2025-05-12:09:28:40,705 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  73%|███████▎  | 145/198 [07:26<02:34,  2.91s/it]2025-05-12:09:28:43,383 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  74%|███████▎  | 146/198 [07:29<02:31,  2.92s/it]2025-05-12:09:28:46,324 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  74%|███████▍  | 147/198 [07:31<02:28,  2.91s/it]2025-05-12:09:28:49,219 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  75%|███████▍  | 148/198 [07:35<02:29,  2.99s/it]2025-05-12:09:28:52,386 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  75%|███████▌  | 149/198 [07:37<02:23,  2.93s/it]2025-05-12:09:28:55,161 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  76%|███████▌  | 150/198 [07:40<02:17,  2.87s/it]2025-05-12:09:28:57,919 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  76%|███████▋  | 151/198 [07:44<02:25,  3.10s/it]2025-05-12:09:29:01,530 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  77%|███████▋  | 152/198 [07:47<02:20,  3.05s/it]2025-05-12:09:29:04,460 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  77%|███████▋  | 153/198 [07:50<02:15,  3.01s/it]2025-05-12:09:29:07,398 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  78%|███████▊  | 154/198 [07:52<02:07,  2.90s/it]2025-05-12:09:29:10,041 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  78%|███████▊  | 155/198 [07:56<02:21,  3.28s/it]2025-05-12:09:29:14,202 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  79%|███████▉  | 156/198 [07:59<02:14,  3.20s/it]2025-05-12:09:29:17,201 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  79%|███████▉  | 157/198 [08:02<02:01,  2.97s/it]2025-05-12:09:29:19,643 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  80%|███████▉  | 158/198 [08:05<01:58,  2.97s/it]2025-05-12:09:29:22,610 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  80%|████████  | 159/198 [08:08<01:56,  2.98s/it]2025-05-12:09:29:25,620 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  81%|████████  | 160/198 [08:10<01:46,  2.81s/it]2025-05-12:09:29:28,028 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  81%|████████▏ | 161/198 [08:14<01:50,  2.98s/it]2025-05-12:09:29:31,408 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  82%|████████▏ | 162/198 [08:16<01:45,  2.93s/it]2025-05-12:09:29:34,213 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  82%|████████▏ | 163/198 [08:20<01:45,  3.01s/it]2025-05-12:09:29:37,415 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  83%|████████▎ | 164/198 [08:23<01:43,  3.04s/it]2025-05-12:09:29:40,515 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  83%|████████▎ | 165/198 [08:25<01:36,  2.92s/it]2025-05-12:09:29:43,163 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  84%|████████▍ | 166/198 [08:28<01:34,  2.96s/it]2025-05-12:09:29:46,204 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  84%|████████▍ | 167/198 [08:31<01:32,  2.99s/it]2025-05-12:09:29:49,277 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  85%|████████▍ | 168/198 [08:34<01:26,  2.90s/it]2025-05-12:09:29:51,947 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  85%|████████▌ | 169/198 [08:37<01:26,  3.00s/it]2025-05-12:09:29:55,182 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  86%|████████▌ | 170/198 [08:41<01:25,  3.06s/it]2025-05-12:09:29:58,374 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  86%|████████▋ | 171/198 [08:44<01:27,  3.25s/it]2025-05-12:09:30:02,078 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  87%|████████▋ | 172/198 [08:47<01:21,  3.13s/it]2025-05-12:09:30:04,933 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  87%|████████▋ | 173/198 [08:51<01:25,  3.41s/it]2025-05-12:09:30:08,990 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  88%|████████▊ | 174/198 [08:55<01:23,  3.47s/it]2025-05-12:09:30:12,588 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  88%|████████▊ | 175/198 [08:57<01:14,  3.24s/it]2025-05-12:09:30:15,290 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  89%|████████▉ | 176/198 [09:01<01:14,  3.40s/it]2025-05-12:09:30:19,087 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  89%|████████▉ | 177/198 [09:04<01:05,  3.14s/it]2025-05-12:09:30:21,596 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  90%|████████▉ | 178/198 [09:06<00:59,  2.97s/it]2025-05-12:09:30:24,163 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  90%|█████████ | 179/198 [09:10<00:59,  3.14s/it]2025-05-12:09:30:27,698 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  91%|█████████ | 180/198 [09:14<01:00,  3.34s/it]2025-05-12:09:30:31,508 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  91%|█████████▏| 181/198 [09:17<00:56,  3.33s/it]2025-05-12:09:30:34,823 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  92%|█████████▏| 182/198 [09:19<00:48,  3.06s/it]2025-05-12:09:30:37,239 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  92%|█████████▏| 183/198 [09:23<00:46,  3.09s/it]2025-05-12:09:30:40,411 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  93%|█████████▎| 184/198 [09:26<00:43,  3.10s/it]2025-05-12:09:30:43,547 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  93%|█████████▎| 185/198 [09:28<00:38,  2.99s/it]2025-05-12:09:30:46,255 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  94%|█████████▍| 186/198 [09:31<00:35,  2.92s/it]2025-05-12:09:30:49,022 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  94%|█████████▍| 187/198 [09:35<00:34,  3.13s/it]2025-05-12:09:30:52,636 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  95%|█████████▍| 188/198 [09:38<00:31,  3.19s/it]2025-05-12:09:30:55,975 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  95%|█████████▌| 189/198 [09:41<00:27,  3.08s/it]2025-05-12:09:30:58,808 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  96%|█████████▌| 190/198 [09:44<00:24,  3.05s/it]2025-05-12:09:31:01,776 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  96%|█████████▋| 191/198 [09:47<00:21,  3.09s/it]2025-05-12:09:31:04,948 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  97%|█████████▋| 192/198 [09:50<00:17,  2.92s/it]2025-05-12:09:31:07,487 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  97%|█████████▋| 193/198 [09:52<00:13,  2.72s/it]2025-05-12:09:31:09,724 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  98%|█████████▊| 194/198 [09:55<00:11,  2.78s/it]2025-05-12:09:31:12,654 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  98%|█████████▊| 195/198 [09:59<00:09,  3.17s/it]2025-05-12:09:31:16,747 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  99%|█████████▉| 196/198 [10:02<00:06,  3.07s/it]2025-05-12:09:31:19,564 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  99%|█████████▉| 197/198 [10:05<00:03,  3.17s/it]2025-05-12:09:31:22,973 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API: 100%|██████████| 198/198 [10:08<00:00,  3.21s/it]Requesting API: 100%|██████████| 198/198 [10:08<00:00,  3.08s/it]
-2025-05-12:09:31:26,282 INFO     [eval_instruct.py:115] Generating responses for GPQADiamond...
-Requesting API:   0%|          | 0/198 [00:00<?, ?it/s]2025-05-12:09:31:26,321 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   1%|          | 1/198 [00:03<10:54,  3.32s/it]2025-05-12:09:31:29,641 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   1%|          | 2/198 [00:06<09:51,  3.02s/it]2025-05-12:09:31:32,446 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   2%|▏         | 3/198 [00:09<09:59,  3.08s/it]2025-05-12:09:31:35,593 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   2%|▏         | 4/198 [00:12<10:00,  3.10s/it]2025-05-12:09:31:38,719 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   3%|▎         | 5/198 [00:15<09:55,  3.09s/it]2025-05-12:09:31:41,793 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   3%|▎         | 6/198 [00:18<09:53,  3.09s/it]2025-05-12:09:31:44,891 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   4%|▎         | 7/198 [00:21<09:41,  3.04s/it]2025-05-12:09:31:47,831 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   4%|▍         | 8/198 [00:24<09:42,  3.06s/it]2025-05-12:09:31:50,945 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   5%|▍         | 9/198 [00:27<09:35,  3.05s/it]2025-05-12:09:31:53,948 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   5%|▌         | 10/198 [00:30<09:43,  3.10s/it]2025-05-12:09:31:57,181 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   6%|▌         | 11/198 [00:33<09:25,  3.03s/it]2025-05-12:09:32:00,030 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   6%|▌         | 12/198 [00:36<09:21,  3.02s/it]2025-05-12:09:32:03,040 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   7%|▋         | 13/198 [00:39<09:21,  3.04s/it]2025-05-12:09:32:06,111 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   7%|▋         | 14/198 [00:42<09:09,  2.99s/it]2025-05-12:09:32:08,981 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   8%|▊         | 15/198 [00:45<09:08,  2.99s/it]2025-05-12:09:32:11,996 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   8%|▊         | 16/198 [00:49<09:27,  3.12s/it]2025-05-12:09:32:15,400 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   9%|▊         | 17/198 [00:51<08:54,  2.95s/it]2025-05-12:09:32:17,970 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:   9%|▉         | 18/198 [00:54<09:01,  3.01s/it]2025-05-12:09:32:21,106 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  10%|▉         | 19/198 [00:57<08:55,  2.99s/it]2025-05-12:09:32:24,053 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  10%|█         | 20/198 [01:00<08:38,  2.91s/it]2025-05-12:09:32:26,786 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  11%|█         | 21/198 [01:03<08:24,  2.85s/it]2025-05-12:09:32:29,494 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  11%|█         | 22/198 [01:06<08:25,  2.87s/it]2025-05-12:09:32:32,417 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  12%|█▏        | 23/198 [01:09<08:42,  2.98s/it]2025-05-12:09:32:35,658 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  12%|█▏        | 24/198 [01:12<08:40,  2.99s/it]2025-05-12:09:32:38,664 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  13%|█▎        | 25/198 [01:15<08:43,  3.03s/it]2025-05-12:09:32:41,778 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  13%|█▎        | 26/198 [01:18<08:55,  3.11s/it]2025-05-12:09:32:45,086 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  14%|█▎        | 27/198 [01:21<08:45,  3.07s/it]2025-05-12:09:32:48,063 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  14%|█▍        | 28/198 [01:24<08:28,  2.99s/it]2025-05-12:09:32:50,866 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  15%|█▍        | 29/198 [01:28<08:55,  3.17s/it]2025-05-12:09:32:54,441 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  15%|█▌        | 30/198 [01:31<08:51,  3.17s/it]2025-05-12:09:32:57,607 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  16%|█▌        | 31/198 [01:33<08:25,  3.03s/it]2025-05-12:09:33:00,314 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  16%|█▌        | 32/198 [01:36<08:11,  2.96s/it]2025-05-12:09:33:03,112 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  17%|█▋        | 33/198 [01:39<08:18,  3.02s/it]2025-05-12:09:33:06,276 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  17%|█▋        | 34/198 [01:43<08:21,  3.06s/it]2025-05-12:09:33:09,422 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  18%|█▊        | 35/198 [01:46<08:17,  3.05s/it]2025-05-12:09:33:12,457 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  18%|█▊        | 36/198 [01:49<08:17,  3.07s/it]2025-05-12:09:33:15,576 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  19%|█▊        | 37/198 [01:52<08:18,  3.10s/it]2025-05-12:09:33:18,734 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  19%|█▉        | 38/198 [01:55<08:14,  3.09s/it]2025-05-12:09:33:21,811 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  20%|█▉        | 39/198 [01:58<08:08,  3.07s/it]2025-05-12:09:33:24,837 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  20%|██        | 40/198 [02:01<07:41,  2.92s/it]2025-05-12:09:33:27,407 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  21%|██        | 41/198 [02:03<07:11,  2.75s/it]2025-05-12:09:33:29,746 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  21%|██        | 42/198 [02:06<07:20,  2.82s/it]2025-05-12:09:33:32,748 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  22%|██▏       | 43/198 [02:09<07:08,  2.76s/it]2025-05-12:09:33:35,369 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  22%|██▏       | 44/198 [02:11<07:04,  2.76s/it]2025-05-12:09:33:38,119 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  23%|██▎       | 45/198 [02:15<07:52,  3.09s/it]2025-05-12:09:33:41,975 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  23%|██▎       | 46/198 [02:19<08:07,  3.21s/it]2025-05-12:09:33:45,461 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  24%|██▎       | 47/198 [02:21<07:35,  3.02s/it]2025-05-12:09:33:48,038 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  24%|██▍       | 48/198 [02:25<08:17,  3.31s/it]2025-05-12:09:33:52,044 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  25%|██▍       | 49/198 [02:28<08:08,  3.28s/it]2025-05-12:09:33:55,244 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  25%|██▌       | 50/198 [02:31<07:47,  3.16s/it]2025-05-12:09:33:58,119 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  26%|██▌       | 51/198 [02:34<07:25,  3.03s/it]2025-05-12:09:34:00,859 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  26%|██▋       | 52/198 [02:38<08:18,  3.42s/it]2025-05-12:09:34:05,169 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  27%|██▋       | 53/198 [02:42<08:06,  3.35s/it]2025-05-12:09:34:08,373 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  27%|██▋       | 54/198 [02:45<07:48,  3.26s/it]2025-05-12:09:34:11,406 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  28%|██▊       | 55/198 [02:47<07:23,  3.10s/it]2025-05-12:09:34:14,145 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  28%|██▊       | 56/198 [02:51<07:40,  3.24s/it]2025-05-12:09:34:17,720 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  29%|██▉       | 57/198 [02:56<09:03,  3.86s/it]2025-05-12:09:34:23,003 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  29%|██▉       | 58/198 [02:59<07:57,  3.41s/it]2025-05-12:09:34:25,383 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  30%|██▉       | 59/198 [03:02<07:38,  3.30s/it]2025-05-12:09:34:28,414 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  30%|███       | 60/198 [03:05<07:28,  3.25s/it]2025-05-12:09:34:31,556 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  31%|███       | 61/198 [03:08<07:13,  3.16s/it]2025-05-12:09:34:34,517 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  31%|███▏      | 62/198 [03:11<07:07,  3.14s/it]2025-05-12:09:34:37,617 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  32%|███▏      | 63/198 [03:15<07:56,  3.53s/it]2025-05-12:09:34:42,049 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  32%|███▏      | 64/198 [03:19<08:11,  3.67s/it]2025-05-12:09:34:46,044 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  33%|███▎      | 65/198 [03:22<07:43,  3.48s/it]2025-05-12:09:34:49,090 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  33%|███▎      | 66/198 [03:25<07:03,  3.21s/it]2025-05-12:09:34:51,654 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  34%|███▍      | 67/198 [03:28<06:48,  3.11s/it]2025-05-12:09:34:54,553 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  34%|███▍      | 68/198 [03:30<06:17,  2.90s/it]2025-05-12:09:34:56,959 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  35%|███▍      | 69/198 [03:33<06:27,  3.00s/it]2025-05-12:09:35:00,199 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  35%|███▌      | 70/198 [03:37<06:38,  3.12s/it]2025-05-12:09:35:03,578 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  36%|███▌      | 71/198 [03:40<06:28,  3.06s/it]2025-05-12:09:35:06,514 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  36%|███▋      | 72/198 [03:43<06:30,  3.10s/it]2025-05-12:09:35:09,692 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  37%|███▋      | 73/198 [03:46<06:13,  2.99s/it]2025-05-12:09:35:12,427 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  37%|███▋      | 74/198 [03:48<06:06,  2.95s/it]2025-05-12:09:35:15,296 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  38%|███▊      | 75/198 [03:51<05:54,  2.88s/it]2025-05-12:09:35:18,024 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  38%|███▊      | 76/198 [03:54<05:56,  2.92s/it]2025-05-12:09:35:21,041 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  39%|███▉      | 77/198 [03:58<06:21,  3.15s/it]2025-05-12:09:35:24,725 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  39%|███▉      | 78/198 [04:01<06:02,  3.02s/it]2025-05-12:09:35:27,431 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  40%|███▉      | 79/198 [04:04<06:06,  3.08s/it]2025-05-12:09:35:30,666 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  40%|████      | 80/198 [04:08<06:40,  3.40s/it]2025-05-12:09:35:34,796 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  41%|████      | 81/198 [04:11<06:33,  3.37s/it]2025-05-12:09:35:38,091 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  41%|████▏     | 82/198 [04:14<06:09,  3.18s/it]2025-05-12:09:35:40,842 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  42%|████▏     | 83/198 [04:17<06:13,  3.25s/it]2025-05-12:09:35:44,247 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  42%|████▏     | 84/198 [04:20<05:38,  2.97s/it]2025-05-12:09:35:46,565 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  43%|████▎     | 85/198 [04:24<06:16,  3.33s/it]2025-05-12:09:35:50,733 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  43%|████▎     | 86/198 [04:27<06:14,  3.34s/it]2025-05-12:09:35:54,107 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  44%|████▍     | 87/198 [04:31<06:14,  3.37s/it]2025-05-12:09:35:57,553 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  44%|████▍     | 88/198 [04:34<05:54,  3.22s/it]2025-05-12:09:36:00,412 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  45%|████▍     | 89/198 [04:37<05:46,  3.17s/it]2025-05-12:09:36:03,484 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  45%|████▌     | 90/198 [04:40<05:42,  3.17s/it]2025-05-12:09:36:06,656 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  46%|████▌     | 91/198 [04:43<05:27,  3.06s/it]2025-05-12:09:36:09,464 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  46%|████▋     | 92/198 [04:47<06:07,  3.47s/it]2025-05-12:09:36:13,866 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  47%|████▋     | 93/198 [04:50<05:52,  3.35s/it]2025-05-12:09:36:16,956 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  47%|████▋     | 94/198 [04:53<05:38,  3.26s/it]2025-05-12:09:36:19,992 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  48%|████▊     | 95/198 [04:57<05:38,  3.29s/it]2025-05-12:09:36:23,349 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  48%|████▊     | 96/198 [05:00<05:43,  3.37s/it]2025-05-12:09:36:26,917 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  49%|████▉     | 97/198 [05:03<05:27,  3.25s/it]2025-05-12:09:36:29,870 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  49%|████▉     | 98/198 [05:06<05:13,  3.13s/it]2025-05-12:09:36:32,737 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  50%|█████     | 99/198 [05:09<05:15,  3.18s/it]2025-05-12:09:36:36,040 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  51%|█████     | 100/198 [05:12<04:59,  3.06s/it]2025-05-12:09:36:38,811 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  51%|█████     | 101/198 [05:15<04:54,  3.03s/it]2025-05-12:09:36:41,787 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  52%|█████▏    | 102/198 [05:18<04:51,  3.04s/it]2025-05-12:09:36:44,841 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  52%|█████▏    | 103/198 [05:21<04:57,  3.13s/it]2025-05-12:09:36:48,176 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  53%|█████▎    | 104/198 [05:24<04:48,  3.07s/it]2025-05-12:09:36:51,120 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  53%|█████▎    | 105/198 [05:28<04:51,  3.13s/it]2025-05-12:09:36:54,397 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  54%|█████▎    | 106/198 [05:31<04:45,  3.10s/it]2025-05-12:09:36:57,431 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  54%|█████▍    | 107/198 [05:33<04:22,  2.89s/it]2025-05-12:09:36:59,816 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  55%|█████▍    | 108/198 [05:36<04:19,  2.88s/it]2025-05-12:09:37:02,677 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  55%|█████▌    | 109/198 [05:39<04:34,  3.08s/it]2025-05-12:09:37:06,237 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  56%|█████▌    | 110/198 [05:43<04:41,  3.20s/it]2025-05-12:09:37:09,692 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  56%|█████▌    | 111/198 [05:46<04:40,  3.22s/it]2025-05-12:09:37:12,970 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  57%|█████▋    | 112/198 [05:50<04:41,  3.28s/it]2025-05-12:09:37:16,378 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  57%|█████▋    | 113/198 [05:52<04:25,  3.13s/it]2025-05-12:09:37:19,163 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  58%|█████▊    | 114/198 [05:55<04:03,  2.90s/it]2025-05-12:09:37:21,534 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  58%|█████▊    | 115/198 [05:58<04:20,  3.14s/it]2025-05-12:09:37:25,230 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  59%|█████▊    | 116/198 [06:02<04:33,  3.34s/it]2025-05-12:09:37:29,032 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  59%|█████▉    | 117/198 [06:05<04:07,  3.06s/it]2025-05-12:09:37:31,445 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  60%|█████▉    | 118/198 [06:07<03:50,  2.88s/it]2025-05-12:09:37:33,918 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  60%|██████    | 119/198 [06:10<03:43,  2.83s/it]2025-05-12:09:37:36,628 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  61%|██████    | 120/198 [06:12<03:28,  2.67s/it]2025-05-12:09:37:38,935 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  61%|██████    | 121/198 [06:15<03:39,  2.85s/it]2025-05-12:09:37:42,182 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  62%|██████▏   | 122/198 [06:19<03:55,  3.10s/it]2025-05-12:09:37:45,885 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  62%|██████▏   | 123/198 [06:22<03:40,  2.94s/it]2025-05-12:09:37:48,456 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  63%|██████▎   | 124/198 [06:24<03:31,  2.86s/it]2025-05-12:09:37:51,130 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  63%|██████▎   | 125/198 [06:27<03:28,  2.86s/it]2025-05-12:09:37:53,977 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  64%|██████▎   | 126/198 [06:30<03:34,  2.98s/it]2025-05-12:09:37:57,228 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  64%|██████▍   | 127/198 [06:33<03:33,  3.00s/it]2025-05-12:09:38:00,288 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  65%|██████▍   | 128/198 [06:37<03:31,  3.02s/it]2025-05-12:09:38:03,344 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  65%|██████▌   | 129/198 [06:40<03:39,  3.17s/it]2025-05-12:09:38:06,883 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  66%|██████▌   | 130/198 [06:43<03:25,  3.02s/it]2025-05-12:09:38:09,554 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  66%|██████▌   | 131/198 [06:46<03:27,  3.10s/it]2025-05-12:09:38:12,817 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  67%|██████▋   | 132/198 [06:50<03:36,  3.29s/it]2025-05-12:09:38:16,551 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  67%|██████▋   | 133/198 [06:53<03:25,  3.17s/it]2025-05-12:09:38:19,439 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  68%|██████▊   | 134/198 [06:56<03:17,  3.09s/it]2025-05-12:09:38:22,338 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  68%|██████▊   | 135/198 [06:58<03:11,  3.04s/it]2025-05-12:09:38:25,281 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  69%|██████▊   | 136/198 [07:01<03:06,  3.00s/it]2025-05-12:09:38:28,188 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  69%|██████▉   | 137/198 [07:04<03:03,  3.01s/it]2025-05-12:09:38:31,199 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  70%|██████▉   | 138/198 [07:07<02:56,  2.94s/it]2025-05-12:09:38:34,000 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  70%|███████   | 139/198 [07:10<02:53,  2.95s/it]2025-05-12:09:38:36,950 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  71%|███████   | 140/198 [07:14<03:04,  3.18s/it]2025-05-12:09:38:40,689 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  71%|███████   | 141/198 [07:17<02:58,  3.14s/it]2025-05-12:09:38:43,722 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  72%|███████▏  | 142/198 [07:20<02:51,  3.06s/it]2025-05-12:09:38:46,594 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  72%|███████▏  | 143/198 [07:23<02:44,  2.99s/it]2025-05-12:09:38:49,437 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  73%|███████▎  | 144/198 [07:25<02:38,  2.93s/it]2025-05-12:09:38:52,205 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  73%|███████▎  | 145/198 [07:29<02:42,  3.06s/it]2025-05-12:09:38:55,573 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  74%|███████▎  | 146/198 [07:32<02:35,  2.98s/it]2025-05-12:09:38:58,383 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  74%|███████▍  | 147/198 [07:35<02:31,  2.98s/it]2025-05-12:09:39:01,348 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  75%|███████▍  | 148/198 [07:38<02:37,  3.15s/it]2025-05-12:09:39:04,886 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  75%|███████▌  | 149/198 [07:41<02:26,  3.00s/it]2025-05-12:09:39:07,534 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  76%|███████▌  | 150/198 [07:44<02:21,  2.94s/it]2025-05-12:09:39:10,341 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  76%|███████▋  | 151/198 [07:47<02:26,  3.11s/it]2025-05-12:09:39:13,861 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  77%|███████▋  | 152/198 [07:50<02:17,  2.99s/it]2025-05-12:09:39:16,548 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  77%|███████▋  | 153/198 [07:53<02:11,  2.93s/it]2025-05-12:09:39:19,357 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  78%|███████▊  | 154/198 [07:55<02:08,  2.91s/it]2025-05-12:09:39:22,219 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  78%|███████▊  | 155/198 [07:59<02:15,  3.15s/it]2025-05-12:09:39:25,914 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  79%|███████▉  | 156/198 [08:02<02:10,  3.10s/it]2025-05-12:09:39:28,890 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  79%|███████▉  | 157/198 [08:05<02:00,  2.93s/it]2025-05-12:09:39:31,437 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  80%|███████▉  | 158/198 [08:07<01:54,  2.86s/it]2025-05-12:09:39:34,146 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  80%|████████  | 159/198 [08:10<01:53,  2.91s/it]2025-05-12:09:39:37,159 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  81%|████████  | 160/198 [08:13<01:46,  2.79s/it]2025-05-12:09:39:39,675 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  81%|████████▏ | 161/198 [08:16<01:47,  2.92s/it]2025-05-12:09:39:42,891 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  82%|████████▏ | 162/198 [08:19<01:47,  2.99s/it]2025-05-12:09:39:46,050 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  82%|████████▏ | 163/198 [08:23<01:50,  3.16s/it]2025-05-12:09:39:49,620 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  83%|████████▎ | 164/198 [08:26<01:46,  3.13s/it]2025-05-12:09:39:52,657 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  83%|████████▎ | 165/198 [08:29<01:40,  3.05s/it]2025-05-12:09:39:55,533 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  84%|████████▍ | 166/198 [08:31<01:34,  2.95s/it]2025-05-12:09:39:58,249 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  84%|████████▍ | 167/198 [08:35<01:33,  3.02s/it]2025-05-12:09:40:01,427 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  85%|████████▍ | 168/198 [08:37<01:26,  2.87s/it]2025-05-12:09:40:03,964 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  85%|████████▌ | 169/198 [08:40<01:26,  3.00s/it]2025-05-12:09:40:07,241 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  86%|████████▌ | 170/198 [08:43<01:23,  2.99s/it]2025-05-12:09:40:10,204 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  86%|████████▋ | 171/198 [08:47<01:24,  3.13s/it]2025-05-12:09:40:13,678 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  87%|████████▋ | 172/198 [08:50<01:20,  3.09s/it]2025-05-12:09:40:16,670 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  87%|████████▋ | 173/198 [08:53<01:15,  3.04s/it]2025-05-12:09:40:19,580 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  88%|████████▊ | 174/198 [08:57<01:18,  3.26s/it]2025-05-12:09:40:23,357 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  88%|████████▊ | 175/198 [08:59<01:10,  3.07s/it]2025-05-12:09:40:25,991 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  89%|████████▉ | 176/198 [09:03<01:10,  3.22s/it]2025-05-12:09:40:29,558 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  89%|████████▉ | 177/198 [09:06<01:05,  3.10s/it]2025-05-12:09:40:32,377 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  90%|████████▉ | 178/198 [09:08<00:58,  2.90s/it]2025-05-12:09:40:34,822 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  90%|█████████ | 179/198 [09:12<00:59,  3.11s/it]2025-05-12:09:40:38,426 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  91%|█████████ | 180/198 [09:16<01:01,  3.41s/it]2025-05-12:09:40:42,527 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  91%|█████████▏| 181/198 [09:19<00:58,  3.42s/it]2025-05-12:09:40:45,966 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  92%|█████████▏| 182/198 [09:22<00:50,  3.18s/it]2025-05-12:09:40:48,579 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  92%|█████████▏| 183/198 [09:25<00:47,  3.17s/it]2025-05-12:09:40:51,737 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  93%|█████████▎| 184/198 [09:29<00:46,  3.32s/it]2025-05-12:09:40:55,411 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  93%|█████████▎| 185/198 [09:31<00:40,  3.13s/it]2025-05-12:09:40:58,081 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  94%|█████████▍| 186/198 [09:34<00:37,  3.09s/it]2025-05-12:09:41:01,091 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  94%|█████████▍| 187/198 [09:38<00:35,  3.21s/it]2025-05-12:09:41:04,563 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  95%|█████████▍| 188/198 [09:41<00:32,  3.29s/it]2025-05-12:09:41:08,059 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  95%|█████████▌| 189/198 [09:44<00:28,  3.14s/it]2025-05-12:09:41:10,828 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  96%|█████████▌| 190/198 [09:47<00:24,  3.06s/it]2025-05-12:09:41:13,710 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  96%|█████████▋| 191/198 [09:51<00:22,  3.26s/it]2025-05-12:09:41:17,444 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  97%|█████████▋| 192/198 [09:53<00:18,  3.05s/it]2025-05-12:09:41:19,989 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  97%|█████████▋| 193/198 [09:55<00:14,  2.80s/it]2025-05-12:09:41:22,230 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  98%|█████████▊| 194/198 [09:58<00:11,  2.82s/it]2025-05-12:09:41:25,072 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  98%|█████████▊| 195/198 [10:02<00:09,  3.21s/it]2025-05-12:09:41:29,199 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  99%|█████████▉| 196/198 [10:05<00:06,  3.08s/it]2025-05-12:09:41:31,973 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API:  99%|█████████▉| 197/198 [10:09<00:03,  3.20s/it]2025-05-12:09:41:35,445 INFO     [api_models.py:624] Tokenized requests are disabled. Context + generation length is not checked.
-Requesting API: 100%|██████████| 198/198 [10:13<00:00,  3.50s/it]Requesting API: 100%|██████████| 198/198 [10:13<00:00,  3.10s/it]
-2025-05-12:09:41:46,567 INFO     [eval_tracker.py:141] Saving results aggregated
-2025-05-12:09:41:46,641 INFO     [eval_tracker.py:167] Wrote aggregated results to: logs/Llama-4-Maverick-17B-128E-Instruct/results_2025-05-12T09-41-46.622565.json
-2025-05-12:09:41:46,642 INFO     [eval.py:583] Eval arugments: openai-chat-completions (tokenized_requests=False,base_url=https://api.sambanova.ai/v1/chat/completions,model=Llama-4-Maverick-17B-128E-Instruct,max_length=32768,eos_string=<｜end▁of▁sentence｜>,num_concurrent=1,max_retries=10,max_gen_toks=13000), gen_kwargs: (do_sample=True,temperature=0.7), limit: None, num_fewshot: None, annotator_model: auto, batch_size: 1 (1)
