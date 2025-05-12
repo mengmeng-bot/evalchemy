@@ -102,7 +102,7 @@ class GPQADiamondBenchmark(BaseBenchmark):
                         {
                             "do_sample": True,
                             "temperature": 0.7,
-                            "max_new_tokens": self.max_new_tokens,
+                            # "max_new_tokens": self.max_new_tokens,
                             "seed": seed,
                         },
                     ),

@@ -80,7 +80,7 @@ class AIME24Benchmark(BaseBenchmark):
                         templated_messages,
                         {
                             "do_sample": False,
-                            "max_new_tokens": self.max_new_tokens,
+                            # "max_new_tokens": self.max_new_tokens,
                             "temperature": 0.7,
                             "seed": seed,
                         },

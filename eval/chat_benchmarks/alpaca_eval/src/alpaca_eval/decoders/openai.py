@@ -221,7 +221,10 @@ def _openai_completion_helper(
 
     # ensure no infinite loop
     choices = None
+    import pdb; pdb.set_trace()
+    # time.sleep(1)
     for _ in range(n_retries):
+        
         try:
             if is_chat:
                 completion_batch = client.chat.completions.create(messages=prompt_batch[0], **curr_kwargs)

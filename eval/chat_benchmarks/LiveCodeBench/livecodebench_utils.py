@@ -234,6 +234,7 @@ def run_tests_for_one_example(test_cases, completion, result_list, is_extracted)
     test_type = test_cases[0]["testtype"]
     reliability_guard()
     for i, test_case in enumerate(test_cases):
+        # print("Running Example", i)
         output_error = ""
         output_value = ""
         try:
@@ -251,14 +252,19 @@ def run_tests_for_one_example(test_cases, completion, result_list, is_extracted)
                 output_error = (
                     f"For test input: {test_input}. Expected output is: {test_output}, but got: {output_value}."
                 )
-
+            
         except Exception as e:
             passed = False
             output_error = f"For test input: {test_input}. Expected output is: {test_output}, but got error: {e}."
             output_value = f"Error: {e}."
         if output_error == "":
             output_error = f"For test input: {test_input}. Expected output is: {test_output}, your solution correctly passes this test with output {output_value}."
+        
+    
+
         result_list.append((passed, output_error, output_value, time_elapsed))
+        # result_list.append((i, passed, output_error, output_value, time_elapsed))
+
         if not passed:
             return
 

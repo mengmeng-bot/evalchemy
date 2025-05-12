@@ -90,6 +90,7 @@ def sambanova_completions(
         headers = {"Authorization": f"Basic {key}", "Content-Type": "application/json"}
 
         while True:
+            # time.sleep(2)
             post_response = requests.post(
                 f"https://{url}/v1/chat/completions", json=payload, headers=headers, stream=True
             )

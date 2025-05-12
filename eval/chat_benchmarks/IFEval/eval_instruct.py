@@ -102,7 +102,7 @@ class IFEvalBenchmark(BaseBenchmark):
                             (
                                 inputs,
                                 {
-                                    "max_gen_toks": self.max_tokens,
+                                    # "max_gen_toks": self.max_tokens,
                                     "do_sample": False,
                                 },
                             ),
@@ -126,6 +126,14 @@ class IFEvalBenchmark(BaseBenchmark):
                     example_with_output = example.copy()
                     example_with_output["response"] = output
                     generated_examples.append(example_with_output)
+                    # assert output.count("<think>") == 1
+                    # assert output.count("</think>") == 1
+#example_with_output["response"] = output
+                #    if output.count("<think>") == 1 and output.count("</think>") == 1:
+                #         example_with_output["response"] = output.partition("</think>")[2]
+                #     else:
+                #         example_with_output["response"] = output
+                #     generated_examples.append(example_with_output)
 
                 except Exception as e:
                     self.logger.error(f"Error processing output for {example['key']}: {str(e)}")
